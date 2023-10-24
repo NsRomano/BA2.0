@@ -9,17 +9,12 @@ header {
     border: 3px solid black;
     text-align: center;
     text-shadow: 4px 5px 3px black;
+    color: white;
 }
 
 .fotocentrada {
     text-align: left;
     margin-left: 300px;
-}
-
-h1 {
-    color: rgb(255, 241, 220);
-    font-family: "Assistant";
-
 }
 
 ul {
