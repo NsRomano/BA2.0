@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/soportestyles.css">
+  <link rel="stylesheet" href="../js/main.js">
+  <title>Formulario de soporte</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="card">
+                <h1>Formulario de Soporte</h1>
+                <form action="" method="post" onsubmit="return validarFormulario()">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <img src="../img/soporte.png" alt="" width="560px" class="imagen">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                    </div>
+                    <div class="campo">
+                        <label for="problema">Problema</label>
+                        <input type="text" name="problema" id="problema" placeholder="Describa el problema">
+                    </div>
+                    <div class="campo">
+                        <label for="descripcion">Descripción</label>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit"><b>Enviar</b></button>
+                </form>
+            </div>
+            <p id="mensaje-exito"><b>El formulario enviado será revisado por soporte y te contactarán por correo.</b></p>
+        </section>
+    </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
