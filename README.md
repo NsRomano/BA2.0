@@ -16,6 +16,11 @@ Esta página web ofrece servicios de hosting, servidores dedicados y servidores 
   Extraiga el archivo en una carpeta de su elección
   Abra el archivo index.html en su navegador web
 ```
+
+## Screenshots
+
+[![final.png](https://i.postimg.cc/7YDxNFXC/final.png)](https://postimg.cc/nMRbFwyZ)
+
 # Contenido
 
 ⩺ Información sobre los servicios ofrecidos
